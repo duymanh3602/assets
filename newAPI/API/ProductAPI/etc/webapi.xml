@@ -19,4 +19,10 @@
             <resource ref="anonymous"/>
         </resources>
     </route>
+    <route url="/V1/products/category/:cid" method="GET">
+        <service class="API\ProductAPI\Api\ProductByCategoryIDInterface" method="getProductByCategoryID"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
 </routes>

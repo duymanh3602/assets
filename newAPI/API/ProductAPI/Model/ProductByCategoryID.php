@@ -1,6 +1,6 @@
 <?php
-namespace API\GetProductByCategoryID\Model;
-use API\GetProductByCategoryID\Api\ProductByCategoryIDInterface;
+namespace API\ProductAPI\Model;
+use API\ProductAPI\Api\ProductByCategoryIDInterface;
 use Magento\Framework\View\Element\Template;
 
 
