@@ -20,7 +20,6 @@ class ProductByCategoryID extends Template implements ProductByCategoryIDInterfa
     {
         $collection = $this->_productCollectionFactory->create();
         $collection->addAttributeToSelect('*');
-        $collection->setPageSize(10);
         $collection->addCategoriesFilter(['in' => $ids]);
         return $collection;
     }
